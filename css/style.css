@@ -34,7 +34,7 @@ background-color: black;
 
 .logo {
     width: 25px;
-    
+    box-shadow: #1F75FE;
 
 }
 
@@ -127,14 +127,19 @@ background-color: black;
 .line2 {
     background-color: hwb(0 93% 6%);
     margin-left: -10px;
-    
     word-spacing: 20px;
     padding: 15px 33px;
+    border-top: 1px solid rgb(150, 150, 150);
+    padding: 10px;
 
 }
+
 
 a {
     text-decoration: none;
     color: rgb(96, 96, 96);
 
+}
+a:hover {
+    text-decoration: underline;
 }
